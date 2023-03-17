@@ -21,6 +21,7 @@
 
 .article {
     display: flex;
+    margin: 2x;
 }
 
 .art_title {
