@@ -1,3 +1,7 @@
+html {
+    background-color: #E2E79B;
+}
+
 .WIP {
     text-align: center;
     position:sticky;
@@ -22,6 +26,9 @@
 .article {
     display: flex;
     margin: 20px;
+    padding: 15px;
+    background-color: #88B1E7;
+    color: white
 }
 
 .art_title {
