@@ -45,7 +45,7 @@ html {
     margin-right: auto;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    border: 1px solid red
+    /* //border: 1px solid red */
   }
   
   /* 2xl */
@@ -98,4 +98,8 @@ html {
 
 #art_cont_title {
   text-align: center;
+}
+
+#header {
+    text-align: center;
 }
