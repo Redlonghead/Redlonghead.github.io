@@ -8,18 +8,6 @@
     --c5: #416788;
 }
 
-body {
-    background-color: var(--c3);
-}
-
-h1 {
-    text-align: center;
-}
-
-#container {
-    display: flex;
-}
-
 #attack_1 {
     background-color: var(--c2);
     padding:20px;
@@ -40,4 +28,73 @@ h1 {
 
 #sources {
   text-align: center;  
+}
+
+.container {
+    display: flex;
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  
+  /* 2xl */
+  @media (max-width: 1536px) {
+    .container {
+        max-width: 1280px;
+    }
+  }
+  
+  /* xl */
+  @media (max-width: 1280px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+  
+  /* lg */
+  @media (max-width: 1024px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+  
+  /* md */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 640px;
+    }
+  }
+  
+  /* sm */
+  @media (max-width: 640px) {
+    .container {
+        display:block;
+      max-width: 475px;
+    }
+
+    #attack_1, #attack_2, #attack_3 {
+        width:90%
+    }
+  }
+  
+  /* xs */
+  @media (max-width: 475px) {
+    .container {
+        display: block;
+      width: 100%;
+    }
+
+    #attack_1, #attack_2, #attack_3 {
+        width:80%
+    }
+  }
+
+body {
+    background-color: var(--c3);
+}
+
+h1 {
+    text-align: center;
 }
