@@ -1,0 +1,113 @@
+/*!DOCTYPE css*/
+
+:root {
+    --green: #8CB369;
+    --yellow: #F4e285;
+    --orange: #F4A259;
+    --blue: #28536B;
+    --red: #BC4B51;
+}
+
+.green {
+    color: var(--green);
+}
+
+.yellow {
+    color: var(--yellow);
+}
+
+.orange {
+    color: var(--orange);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.red {
+    color: var(--red);
+}
+
+/* ! end of color ! */
+
+body {
+    background-image: url(../photos/4.9_back.jfif);
+    background-size:contain;
+    /* background-color: var(--blue); */
+}
+
+span {
+    color: #0069CC;
+}
+
+div {
+    border: black solid 3px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+ul, li {
+    list-style-position: inside;
+}
+
+.header {
+    text-align: center;
+}
+
+#plan {
+    background-color: var(--green);
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+}
+
+#choice {
+    border: none;
+    display:flex
+}
+
+#college {
+    background-color: var(--orange);
+    position: relative;
+    width: 50%;
+    padding: 20px;
+    margin: 15px;
+}
+
+#career {
+    text-align: right;
+    background-color: var(--red);
+    position: relative;
+    width: 50%;
+    padding: 20px;
+    margin: 15px;
+}
+
+#life {
+    background-color: var(--yellow);
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+}
+
+#wsu {
+    position: absolute;
+    top:150px;
+    right: 30px;
+    width: 180px;
+}
+
+#server {
+    position:absolute;
+    top:130px;
+    left: 35px;
+    width: 300px;
+}
+
+#tesla {
+    position: absolute;
+    left: 15%;
+    width:70px;
+}
