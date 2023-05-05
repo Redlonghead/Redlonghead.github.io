@@ -1,0 +1,32 @@
+/*!DOCTYPE css*/
+
+html {
+    background-image: url(../photos/4.7_blue.jpg);
+}
+
+h1 {
+    color: #2980B9;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 20pt;
+    text-decoration: underline;
+}
+
+#Facts {
+    color:black;
+    background-color: #FAD7A0;
+    width: 900px;;
+    margin: auto
+}
+
+img {
+    float: left;
+    border: thin black solid;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    /* margin-top: 50px; */
+}
+
+li {
+    list-style-image: url(../photos/4.7_bullet.JPG);
+}
