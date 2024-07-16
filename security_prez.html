@@ -1,0 +1,63 @@
+<!doctype html>
+
+<html>
+<head>
+  <link rel="stylesheet" href="/css/security_prez.css">
+  <meta charset="UTF-8">
+  <meta name="description" content='Content and blogs for Security+ Class'>
+  <meta name="author" content="Connor B.">
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel="icon" type="image/x-icon" href="assets/photos/favicon.ico">
+  <title>CB Security Presentation</title>
+</head>
+<body>
+    <h1>Attacks on the Root DNS servers of the Internet</h1>
+    <div id="container">
+        <div id="attack_1">
+            <h2>Attack 1</h2>
+            <ul>
+                <li>Who: Unknown</li>
+                <li>What: Large scale traffic of ICMP, TCP SYN, TCP, and UDP on the root DNS servers</li>
+                <li>When: October 21, 2002 at 20:45 UTC and it lasted for a hour.</li>
+                <li>Where: All 13 root servers</li>
+                <li>Why: To create timeouts on the internet</li>
+                <li>Impact: There was no know reports of end-user errors and all servers could still respond in time the only real issues were with congestion in the network.</li>
+                <li>Resolution: They (does not say) sent out 'drones' to find out who was in charge of the attack but they were not able to find them and they (again does not say) in respond to the attack increased the provisions to the servers and used wide area server mirroring to prevent future attacks.</li>
+            </ul>
+        </div>
+        <div id="attack_2">
+            <h2>Attack 2</h2>
+            <ul>
+                <li>Who: Somewhere in the Asia-Pacific region (South Korea?)</li>
+                <li>What: DDos attack on the root DNS servers</li>
+                <li>When: February 6, 2007 at 12:00 PM UTC for about 2.5 hours after 3.5 hours of nothing the attack began again for another 5 hours</li>
+                <li>Where: Six of the 13 root servers</li>
+                <li>Why: This attack might have been as an advertisement for the botnet used.</li>
+                <li>Impact: Six servers were attacked but only two were noticeably affected which was the 'g-root' and the 'I-root' and the main reason for that was they were not running Anycast (some of the non-attacked servers also did not have Anycast on them at this point) but there was no actual users that were inconvenienced during this attack.</li>
+                <li>Resolution: The root server operators decided that the use of Anycast was effective against attacks and installed it on all the servers to reduce future attacks.</li>
+            </ul>
+        </div>
+        <div id="attack_3">
+            <h2>Attack 3</h2>
+            <ul>
+                <li>Who: Unknown</li>
+                <li>What: Attack on the root DNS servers</li>
+                <li>When: November 30, 2015 & December 1, 2015</li>
+                <li>Where:</li>
+                <li>Why:</li>
+                <li>Impact:</li>
+                <li>Resolution:</li>
+            </ul>
+        </div>
+        <!-- ? Do the Threat on Root DNS ?
+        <div id="Threat"></div> -->
+    </div>
+    <div id="Sources">
+        <h2>Sources</h2>
+        <a href="https://en.wikipedia.org/wiki/Distributed_denial-of-service_attacks_on_root_nameservers#cite_note-5">Wikipedia Article</a><br>
+        <a href="https://web.archive.org/web/20110302164416/http://www.isc.org/f-root-denial-of-service-21-oct-2002">October 21 of 2002</a><br>
+        <a href="assets/pdf/factsheet-dns-attack-08mar07-en.pdf">February 6 of 2007 (PDF)</a><br>
+        <a href="https://web.archive.org/web/20151208225109/http://root-servers.org/news/events-of-20151130.txt">November 30 & December 1 of 2015</a>
+    </div>
+</body>
+</html>

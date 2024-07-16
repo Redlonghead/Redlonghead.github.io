@@ -1,0 +1,124 @@
+/*!DOCTYPE css*/
+
+html {
+    background-color: #E2E79B;
+}
+
+a {
+  color:white;
+}
+
+/* ? Created by Slaying the Dragon */
+.container {
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    /* //border: 1px solid red */
+  }
+  
+  /* * 2xl */
+  @media (max-width: 1536px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+  
+  /* * xl */
+  @media (max-width: 1280px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+  
+  /* * lg */
+  @media (max-width: 1024px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+  
+  /* * md */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 640px;
+    }
+  }
+  
+  /* * sm */
+  @media (max-width: 640px) {
+    .container {
+      max-width: 475px;
+    }
+  }
+  
+  /* * xs */
+  @media (max-width: 475px) {
+    .container {
+      width: 100%;
+    }
+  }
+/* ? End of Copy */
+
+/* * Classes Below * */
+.WIP {
+  text-align: center;
+  position:sticky;
+  top: 0px;
+  left:25%;
+  width:400px;
+  margin: auto;
+  z-index: 1;
+  background-color: white;
+}
+
+.intra_link {
+  background-color: #565C7F;
+  padding: 20px;
+  align-self: start;
+  position: sticky;
+  top: 0;
+}
+
+.article {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #88B1E7;
+  color: white
+}
+
+.sus {
+  position:fixed;
+  top:0px;
+  right:0px;
+  width:.6em;
+}
+
+.art_sample {
+  margin-left: 40px
+}
+
+.art_title {
+  color: #347AD5;
+}
+
+/* * ID's Below *  */
+
+#header {
+    text-align: center;
+}
+
+#main_body {
+  display: grid;
+  grid-template-columns: 7.8125rem auto;
+}
+
+#article_container {
+  background-color: #565C7F;
+  padding: 10px
+}
+
+#art_cont_title {
+text-align: center;
+}

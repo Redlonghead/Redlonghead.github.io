@@ -1,0 +1,25 @@
+/*!DOCTYPE css*/
+
+html {
+    background-color: white;
+}
+
+#title {
+    background-color:yellow;
+    color:blue;
+    border:2px solid blue;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+#facts {
+    background-color:blue;
+    color: black;
+    border:2px solid yellow
+}
+
+span {
+    color: white;
+    text-decoration: underline;
+}

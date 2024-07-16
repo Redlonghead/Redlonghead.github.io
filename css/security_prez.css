@@ -1,0 +1,39 @@
+/*!DOCTYPE css*/
+
+:root {
+    --c1: #E0E0E2;
+    --c2: #81D2C7;
+    --c3: #B5BAD0;
+    --c4: #7389AE;
+    --c5: #416788;
+}
+
+body {
+    background-color: var(--c3);
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+}
+
+#attack_1 {
+    background-color: var(--c2);
+    padding:20px;
+    width:33%
+}
+
+#attack_2 {
+    background-color: var(--c4);
+    padding:20px;
+    width:33%
+}
+
+#attack_3 {
+    background-color: var(--c5);
+    padding:20px;
+    width:33%
+}

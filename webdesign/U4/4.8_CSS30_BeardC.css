@@ -1,0 +1,39 @@
+/*!DOCTYPE css*/
+
+body {
+    background-image: url(../photos/4.8_gold.jpg);
+    color: black;
+    text-decoration: solid;
+}
+
+h1 {
+    color: #b79325;
+    text-decoration: underline;
+    text-align: center;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.gold {
+    color: #b79325;
+}
+
+#prime_list {
+    list-style-image: url(../photos/4.8_letter.JPG);
+    /* padding: 20px; */
+}
+
+#content {
+    background-color: #797d7f;
+    border: black solid 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 25px;
+}
+
+#amazon_logo {
+    border: thin black solid;
+    float:right;
+}
