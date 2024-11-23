@@ -1,7 +1,7 @@
 /*!DOCTYPE css*/
 
 html {
-    background-color: #4f4d4d;
+    background-color: #E2E79B;
 }
 
 a {
@@ -70,11 +70,55 @@ a {
   width:400px;
   margin: auto;
   z-index: 1;
-  color: white
+  background-color: white;
 }
 
 .intra_link {
+  background-color: #565C7F;
+  padding: 20px;
   align-self: start;
   position: sticky;
   top: 0;
+}
+
+.article {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #88B1E7;
+  color: white
+}
+
+.sus {
+  position:fixed;
+  top:0px;
+  right:0px;
+  width:.6em;
+}
+
+.art_sample {
+  margin-left: 40px
+}
+
+.art_title {
+  color: #347AD5;
+}
+
+/* * ID's Below *  */
+
+#header {
+    text-align: center;
+}
+
+#main_body {
+  display: grid;
+  grid-template-columns: 7.8125rem auto;
+}
+
+#article_container {
+  background-color: #565C7F;
+  padding: 10px
+}
+
+#art_cont_title {
+text-align: center;
 }
